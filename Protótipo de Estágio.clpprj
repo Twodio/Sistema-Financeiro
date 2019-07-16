@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\AppServ\www\Sistema-Financeiro\Protótipo de Estágio.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/estagio]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/estagio]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\index.php"/>
+	</lastopfiles>
+	<todoblock>
+		<todofile name="C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php">
+			<todo name="TODO: Tipo pessoa" pos="26;4"/>
+			<todo name="TODO: Endereço" pos="24;7"/>
+			<todo name="TODO: Endereço" pos="9;21"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\js\popper.min.js" crc="1562588405"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\js\main.js" crc="1562686420"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\js\jquery-3.3.1.min.js" crc="1562588394"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\js\bootstrap.min.js" crc="1562588374"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\install\index.php" crc="1562768959"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\css\bootstrap.min.css" crc="1562588354"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\ws\index.php" crc="1562764233"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\cad\cadVendedores.tpl.php" crc="1562764351"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\cad\cadTransportadoras.tpl.php" crc="1562764345"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\cad\cadFornecedores.tpl.php" crc="1562764337"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\cad\cadEditoras.tpl.php" crc="1562764328"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\cad\cadClientes.tpl.php" crc="1562848026"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\login.tpl.php" crc="1562678465"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\index.tpl.php" crc="1562598610"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\header.tpl.php" crc="1562763786"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\template\footer.tpl.php" crc="1562684852"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php" crc="1562773031"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\local\strings.php" crc="1562773050"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php" crc="1559776202"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php" crc="1559776376"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php" crc="1559776602"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php" crc="1559777080"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php" crc="1559775948"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php" crc="1562764450"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php" crc="1562764479"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php" crc="1562848002"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php" crc="1559776566"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\log.ini" crc="1562848029"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\Init.php" crc="1562773143"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\private\Config.php" crc="1562769601"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\nbproject\private\private.xml" crc="1562774580"/>
+		<file name="C:\AppServ\www\Sistema-Financeiro\nbproject\project.xml" crc="1559775854"/>
+	</filescache>
+</project>

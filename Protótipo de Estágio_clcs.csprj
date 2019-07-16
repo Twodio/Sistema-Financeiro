@@ -1,0 +1,358 @@
+<codestructure version="5.14">
+<phptree>
+<treenode node="../private/Init.php;PHP:PHP Include;C:\AppServ\www\Sistema-Financeiro\ws\index.php;f18;2;37;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="BEAN;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;6;16;6;;;;vpos;;v;;rPVT.DS.&quot;bean&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="Config.php;PHP:PHP Include;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f18;18;28;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DEBUG;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;3;17;3;;;;vpos;;v;;rtrue;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DS;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;4;14;4;;;;vpos;;v;;rDIRECTORY_SEPARATOR;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="IMPORTS;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;7;19;7;;;;vpos;;v;;rPVT.DS.&quot;imports&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="LOCAL;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;13;17;13;;;;vpos;;v;;rPVT.DS.&quot;local&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="LOG;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;12;15;12;;;;vpos;;v;;rPVT.DS.&quot;log&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MODULOS;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;8;19;8;;;;vpos;;v;;rPVT.DS.&quot;modulos&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="PVT;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;5;15;5;;;;vpos;;v;;r__DIR__;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TB_CLIENTE;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\local\strings.php;f12;2;22;2;;;;vpos;;v;;r&quot;cliente&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TPL;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;9;15;9;;;;vpos;;v;;rPVT.DS.&quot;template&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TPLA;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;10;16;10;;;;vpos;;v;;rPVT.DS.&quot;template&quot;.DS.&quot;admin&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TPLCAD;PHP:PHP Word;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f12;11;18;11;;;;vpos;;v;;rPVT.DS.&quot;template&quot;.DS.&quot;cad&quot;.DS;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="Banco;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f0;2;1;41;;;;vpos;;v;;r;;d11,2;;b0,0;;m">
+<treenode node="getAgencia;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;16;5;18;;;;vpos;;v;;r;;d26,16;;b0,0;;m">
+</treenode>
+<treenode node="getConta;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;12;5;14;;;;vpos;;v;;r;;d24,12;;b0,0;;m">
+</treenode>
+<treenode node="getNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;8;5;10;;;;vpos;;v;;r;;d23,8;;b0,0;;m">
+</treenode>
+<treenode node="getTitular;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;20;5;22;;;;vpos;;v;;r;;d26,20;;b0,0;;m">
+</treenode>
+<treenode node="setAgencia;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;32;5;34;;;;vpos;;v;;r;;d34,32;;b0,0;;magencia;;p">
+</treenode>
+<treenode node="setConta;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;28;5;30;;;;vpos;;v;;r;;d30,28;;b0,0;;mconta;;p">
+</treenode>
+<treenode node="setNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;24;5;26;;;;vpos;;v;;r;;d28,24;;b0,0;;mnome;;p">
+</treenode>
+<treenode node="setTitular;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Banco.class.php;f4;36;5;38;;;;vpos;;v;;r;;d34,36;;b0,0;;mtitular;;p">
+</treenode>
+</treenode>
+<treenode node="Banco_De_Dados;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f0;2;1;84;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;8;5;31;;;;vpos;;v;;r;;d4,9;;b1,0;;m">
+</treenode>
+<treenode node="callProcedure;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;80;5;82;;;;vpos;;v;;r;;d53,80;;b1,0;;mnome;;pparametros;;p">
+</treenode>
+<treenode node="delete;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;73;5;78;;;;vpos;;v;;r;;d53,73;;b1,0;;mtabela;;pcondicao;;pexec;;p">
+</treenode>
+<treenode node="getCon;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;33;5;35;;;;vpos;;v;;r;;d28,33;;b1,0;;m">
+</treenode>
+<treenode node="insert;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;43;5;50;;;;vpos;;v;;r;;d53,43;;b1,0;;mtabela;;pcondicao;;pexec;;p">
+</treenode>
+<treenode node="prepExec;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f12;37;5;40;;;;vpos;;v;;r;;d49,37;;b3,0;;mprepare;;pexecute;;p">
+</treenode>
+<treenode node="select;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;53;5;64;;;;vpos;;v;;r;;d62,53;;b1,0;;mcampos;;ptabela;;pcondicao;;pexec;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\modulos\Banco_De_Dados.class.php;f11;66;5;71;;;;vpos;;v;;r;;d53,66;;b1,0;;mtabela;;pcondicao;;pexec;;p">
+</treenode>
+</treenode>
+<treenode node="Cliente;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f0;2;1;176;;;;vpos;;v;;r;;d13,2;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f11;20;5;37;;;;vpos;;v;;r;;d140,20;;b1,0;;mtipoPessoa;;pdoc;;pnome;;prg;;ptelefone;;pcelular;;pfax;;pobs;;pcontato;;pemail;;pinscest;;pinscmun;;pmala;;p">
+</treenode>
+<treenode node="cadastrar;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f11;39;5;46;;;;vpos;;v;;r;;d31,39;;b1,0;;m">
+</treenode>
+<treenode node="getBairro;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;24;5;26;;;;vpos;;v;;r;;d25,24;;b0,0;;m">
+</treenode>
+<treenode node="getCelular;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;64;5;66;;;;vpos;;v;;r;;d26,64;;b0,0;;m">
+</treenode>
+<treenode node="getCep;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;28;5;30;;;;vpos;;v;;r;;d22,28;;b0,0;;m">
+</treenode>
+<treenode node="getCidade;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;32;5;34;;;;vpos;;v;;r;;d25,32;;b0,0;;m">
+</treenode>
+<treenode node="getCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;72;5;74;;;;vpos;;v;;r;;d22,72;;b0,0;;m">
+</treenode>
+<treenode node="getCod_municipio;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;40;5;42;;;;vpos;;v;;r;;d32,40;;b0,0;;m">
+</treenode>
+<treenode node="getComplemento;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;20;5;22;;;;vpos;;v;;r;;d30,20;;b0,0;;m">
+</treenode>
+<treenode node="getContato;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;112;5;114;;;;vpos;;v;;r;;d26,112;;b0,0;;m">
+</treenode>
+<treenode node="getDoc;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;80;5;82;;;;vpos;;v;;r;;d22,80;;b0,0;;m">
+</treenode>
+<treenode node="getEmail;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;116;5;118;;;;vpos;;v;;r;;d24,116;;b0,0;;m">
+</treenode>
+<treenode node="getEnd_entrega;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;92;5;94;;;;vpos;;v;;r;;d30,92;;b0,0;;m">
+</treenode>
+<treenode node="getEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;88;5;90;;;;vpos;;v;;r;;d27,88;;b0,0;;m">
+</treenode>
+<treenode node="getFax;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;104;5;106;;;;vpos;;v;;r;;d22,104;;b0,0;;m">
+</treenode>
+<treenode node="getInscricao_estadual;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;48;5;50;;;;vpos;;v;;r;;d37,48;;b0,0;;m">
+</treenode>
+<treenode node="getInscricao_municipal;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;52;5;54;;;;vpos;;v;;r;;d38,52;;b0,0;;m">
+</treenode>
+<treenode node="getMala_direta;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;120;5;122;;;;vpos;;v;;r;;d30,120;;b0,0;;m">
+</treenode>
+<treenode node="getNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;84;5;86;;;;vpos;;v;;r;;d23,84;;b0,0;;m">
+</treenode>
+<treenode node="getNumero;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;16;5;18;;;;vpos;;v;;r;;d25,16;;b0,0;;m">
+</treenode>
+<treenode node="getObservacao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;108;5;110;;;;vpos;;v;;r;;d29,108;;b0,0;;m">
+</treenode>
+<treenode node="getRg;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;96;5;98;;;;vpos;;v;;r;;d21,96;;b0,0;;m">
+</treenode>
+<treenode node="getRua;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;12;5;14;;;;vpos;;v;;r;;d22,12;;b0,0;;m">
+</treenode>
+<treenode node="getTelefone;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;100;5;102;;;;vpos;;v;;r;;d27,100;;b0,0;;m">
+</treenode>
+<treenode node="getTipoPessoa;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;76;5;78;;;;vpos;;v;;r;;d29,76;;b0,0;;m">
+</treenode>
+<treenode node="getUf;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;36;5;38;;;;vpos;;v;;r;;d21,36;;b0,0;;m">
+</treenode>
+<treenode node="setBairro;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;56;5;58;;;;vpos;;v;;r;;d32,56;;b0,0;;mbairro;;p">
+</treenode>
+<treenode node="setCelular;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;68;5;70;;;;vpos;;v;;r;;d34,68;;b0,0;;mcelular;;p">
+</treenode>
+<treenode node="setCep;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;60;5;62;;;;vpos;;v;;r;;d26,60;;b0,0;;mcep;;p">
+</treenode>
+<treenode node="setCidade;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;64;5;66;;;;vpos;;v;;r;;d32,64;;b0,0;;mcidade;;p">
+</treenode>
+<treenode node="setCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;124;5;126;;;;vpos;;v;;r;;d26,124;;b0,0;;mcod;;p">
+</treenode>
+<treenode node="setCod_municipio;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;72;5;74;;;;vpos;;v;;r;;d46,72;;b0,0;;mcod_municipio;;p">
+</treenode>
+<treenode node="setComplemento;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;52;5;54;;;;vpos;;v;;r;;d42,52;;b0,0;;mcomplemento;;p">
+</treenode>
+<treenode node="setContato;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;164;5;166;;;;vpos;;v;;r;;d34,164;;b0,0;;mcontato;;p">
+</treenode>
+<treenode node="setDoc;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;132;5;134;;;;vpos;;v;;r;;d26,132;;b0,0;;mdoc;;p">
+</treenode>
+<treenode node="setEmail;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;168;5;170;;;;vpos;;v;;r;;d30,168;;b0,0;;memail;;p">
+</treenode>
+<treenode node="setEnd_entrega;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;144;5;146;;;;vpos;;v;;r;;d42,144;;b0,0;;mend_entrega;;p">
+</treenode>
+<treenode node="setEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;140;5;142;;;;vpos;;v;;r;;d36,140;;b0,0;;mendereco;;p">
+</treenode>
+<treenode node="setFax;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;156;5;158;;;;vpos;;v;;r;;d26,156;;b0,0;;mfax;;p">
+</treenode>
+<treenode node="setInscricao_estadual;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;56;5;58;;;;vpos;;v;;r;;d56,56;;b0,0;;minscricao_estadual;;p">
+</treenode>
+<treenode node="setInscricao_municipal;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;60;5;62;;;;vpos;;v;;r;;d58,60;;b0,0;;minscricao_municipal;;p">
+</treenode>
+<treenode node="setMala_direta;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;172;5;174;;;;vpos;;v;;r;;d42,172;;b0,0;;mmala_direta;;p">
+</treenode>
+<treenode node="setNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;136;5;138;;;;vpos;;v;;r;;d28,136;;b0,0;;mnome;;p">
+</treenode>
+<treenode node="setNumero;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;48;5;50;;;;vpos;;v;;r;;d32,48;;b0,0;;mnumero;;p">
+</treenode>
+<treenode node="setObservacao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;160;5;162;;;;vpos;;v;;r;;d40,160;;b0,0;;mobservacao;;p">
+</treenode>
+<treenode node="setRg;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;148;5;150;;;;vpos;;v;;r;;d24,148;;b0,0;;mrg;;p">
+</treenode>
+<treenode node="setRua;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;44;5;46;;;;vpos;;v;;r;;d26,44;;b0,0;;mrua;;p">
+</treenode>
+<treenode node="setTelefone;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;152;5;154;;;;vpos;;v;;r;;d36,152;;b0,0;;mtelefone;;p">
+</treenode>
+<treenode node="setTipoPessoa;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Cliente.class.php;f4;128;5;130;;;;vpos;;v;;r;;d40,128;;b0,0;;mtipoPessoa;;p">
+</treenode>
+<treenode node="setUf;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;68;5;70;;;;vpos;;v;;r;;d24,68;;b0,0;;muf;;p">
+</treenode>
+</treenode>
+<treenode node="Config;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\Config.php;f0;2;1;8;;;;vpos;;v;;r;;d12,2;;b0,0;;m">
+</treenode>
+<treenode node="Editora;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f0;2;1;59;;;;vpos;;v;;r;;d13,2;;b0,0;;m">
+<treenode node="getCnpj;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;18;5;20;;;;vpos;;v;;r;;d23,18;;b0,0;;m">
+</treenode>
+<treenode node="getCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;10;5;12;;;;vpos;;v;;r;;d22,10;;b0,0;;m">
+</treenode>
+<treenode node="getEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;30;5;32;;;;vpos;;v;;r;;d27,30;;b0,0;;m">
+</treenode>
+<treenode node="getMargem;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;34;5;36;;;;vpos;;v;;r;;d25,34;;b0,0;;m">
+</treenode>
+<treenode node="getNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;14;5;16;;;;vpos;;v;;r;;d23,14;;b0,0;;m">
+</treenode>
+<treenode node="getNome_reduzido;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;26;5;28;;;;vpos;;v;;r;;d32,26;;b0,0;;m">
+</treenode>
+<treenode node="setCnpj;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;22;5;24;;;;vpos;;v;;r;;d28,22;;b0,0;;mcnpj;;p">
+</treenode>
+<treenode node="setCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;38;5;40;;;;vpos;;v;;r;;d26,38;;b0,0;;mcod;;p">
+</treenode>
+<treenode node="setEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;50;5;52;;;;vpos;;v;;r;;d36,50;;b0,0;;mendereco;;p">
+</treenode>
+<treenode node="setMargem;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;54;5;56;;;;vpos;;v;;r;;d32,54;;b0,0;;mmargem;;p">
+</treenode>
+<treenode node="setNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;42;5;44;;;;vpos;;v;;r;;d28,42;;b0,0;;mnome;;p">
+</treenode>
+<treenode node="setNome_reduzido;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Editora.class.php;f4;46;5;48;;;;vpos;;v;;r;;d46,46;;b0,0;;mnome_reduzido;;p">
+</treenode>
+</treenode>
+<treenode node="Endereco;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f0;2;1;77;;;;vpos;;v;;r;;d14,2;;b0,0;;m">
+<treenode node="getBairro;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;24;5;26;;;;vpos;;v;;r;;d25,24;;b0,0;;m">
+</treenode>
+<treenode node="getCep;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;28;5;30;;;;vpos;;v;;r;;d22,28;;b0,0;;m">
+</treenode>
+<treenode node="getCidade;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;32;5;34;;;;vpos;;v;;r;;d25,32;;b0,0;;m">
+</treenode>
+<treenode node="getCod_municipio;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;40;5;42;;;;vpos;;v;;r;;d32,40;;b0,0;;m">
+</treenode>
+<treenode node="getComplemento;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;20;5;22;;;;vpos;;v;;r;;d30,20;;b0,0;;m">
+</treenode>
+<treenode node="getNumero;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;16;5;18;;;;vpos;;v;;r;;d25,16;;b0,0;;m">
+</treenode>
+<treenode node="getRua;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;12;5;14;;;;vpos;;v;;r;;d22,12;;b0,0;;m">
+</treenode>
+<treenode node="getUf;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;36;5;38;;;;vpos;;v;;r;;d21,36;;b0,0;;m">
+</treenode>
+<treenode node="setBairro;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;56;5;58;;;;vpos;;v;;r;;d32,56;;b0,0;;mbairro;;p">
+</treenode>
+<treenode node="setCep;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;60;5;62;;;;vpos;;v;;r;;d26,60;;b0,0;;mcep;;p">
+</treenode>
+<treenode node="setCidade;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;64;5;66;;;;vpos;;v;;r;;d32,64;;b0,0;;mcidade;;p">
+</treenode>
+<treenode node="setCod_municipio;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;72;5;74;;;;vpos;;v;;r;;d46,72;;b0,0;;mcod_municipio;;p">
+</treenode>
+<treenode node="setComplemento;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;52;5;54;;;;vpos;;v;;r;;d42,52;;b0,0;;mcomplemento;;p">
+</treenode>
+<treenode node="setNumero;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;48;5;50;;;;vpos;;v;;r;;d32,48;;b0,0;;mnumero;;p">
+</treenode>
+<treenode node="setRua;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;44;5;46;;;;vpos;;v;;r;;d26,44;;b0,0;;mrua;;p">
+</treenode>
+<treenode node="setUf;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Endereco.class.php;f4;68;5;70;;;;vpos;;v;;r;;d24,68;;b0,0;;muf;;p">
+</treenode>
+</treenode>
+<treenode node="Fornecedor;PHP:Class Name;V:\Trabalhos\Projeto de Estágio\Projeto de Protótipo\private\bean\NewFile.php;f0;2;1;12;;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f0;2;1;77;;;;vpos;;v;;r;;d16,2;;b0,0;;m">
+<treenode node="getCnpj;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;12;5;14;;;;vpos;;v;;r;;d23,12;;b0,0;;m">
+</treenode>
+<treenode node="getContato;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;36;5;38;;;;vpos;;v;;r;;d26,36;;b0,0;;m">
+</treenode>
+<treenode node="getEmail;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;40;5;42;;;;vpos;;v;;r;;d24,40;;b0,0;;m">
+</treenode>
+<treenode node="getEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;20;5;22;;;;vpos;;v;;r;;d27,20;;b0,0;;m">
+</treenode>
+<treenode node="getFax;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;32;5;34;;;;vpos;;v;;r;;d22,32;;b0,0;;m">
+</treenode>
+<treenode node="getInsc_estadual;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;24;5;26;;;;vpos;;v;;r;;d32,24;;b0,0;;m">
+</treenode>
+<treenode node="getNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;16;5;18;;;;vpos;;v;;r;;d23,16;;b0,0;;m">
+</treenode>
+<treenode node="getTelefone;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;28;5;30;;;;vpos;;v;;r;;d27,28;;b0,0;;m">
+</treenode>
+<treenode node="setCnpj;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;44;5;46;;;;vpos;;v;;r;;d28,44;;b0,0;;mcnpj;;p">
+</treenode>
+<treenode node="setContato;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;68;5;70;;;;vpos;;v;;r;;d34,68;;b0,0;;mcontato;;p">
+</treenode>
+<treenode node="setEmail;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;72;5;74;;;;vpos;;v;;r;;d30,72;;b0,0;;memail;;p">
+</treenode>
+<treenode node="setEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;52;5;54;;;;vpos;;v;;r;;d36,52;;b0,0;;mendereco;;p">
+</treenode>
+<treenode node="setFax;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;64;5;66;;;;vpos;;v;;r;;d26,64;;b0,0;;mfax;;p">
+</treenode>
+<treenode node="setInsc_estadual;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;56;5;58;;;;vpos;;v;;r;;d46,56;;b0,0;;minsc_estadual;;p">
+</treenode>
+<treenode node="setNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;48;5;50;;;;vpos;;v;;r;;d28,48;;b0,0;;mnome;;p">
+</treenode>
+<treenode node="setTelefone;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Fornecedor.class.php;f4;60;5;62;;;;vpos;;v;;r;;d36,60;;b0,0;;mtelefone;;p">
+</treenode>
+</treenode>
+<treenode node="Operacoes;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f0;2;1;32;;;;vpos;;v;;r;;d15,2;;b0,0;;m">
+<treenode node="getDescicao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f4;11;5;13;;;;vpos;;v;;r;;d27,11;;b0,0;;m">
+</treenode>
+<treenode node="getNatureza;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f4;7;5;9;;;;vpos;;v;;r;;d27,7;;b0,0;;m">
+</treenode>
+<treenode node="getTipo;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f4;15;5;17;;;;vpos;;v;;r;;d23,15;;b0,0;;m">
+</treenode>
+<treenode node="setDescicao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f4;23;5;25;;;;vpos;;v;;r;;d36,23;;b0,0;;mdescicao;;p">
+</treenode>
+<treenode node="setNatureza;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f4;19;5;21;;;;vpos;;v;;r;;d36,19;;b0,0;;mnatureza;;p">
+</treenode>
+<treenode node="setTipo;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Operacoes.class.php;f4;27;5;29;;;;vpos;;v;;r;;d28,27;;b0,0;;mtipo;;p">
+</treenode>
+</treenode>
+<treenode node="PlanoPagamento;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f0;2;1;59;;;;vpos;;v;;r;;d20,2;;b0,0;;m">
+<treenode node="getBaixa_auto;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;26;5;28;;;;vpos;;v;;r;;d29,26;;b0,0;;m">
+</treenode>
+<treenode node="getBaixa_direto_dt_emissao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;30;5;32;;;;vpos;;v;;r;;d42,30;;b0,0;;m">
+</treenode>
+<treenode node="getBanco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;22;5;24;;;;vpos;;v;;r;;d24,22;;b0,0;;m">
+</treenode>
+<treenode node="getCartao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;18;5;20;;;;vpos;;v;;r;;d25,18;;b0,0;;m">
+</treenode>
+<treenode node="getCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;10;5;12;;;;vpos;;v;;r;;d22,10;;b0,0;;m">
+</treenode>
+<treenode node="getDesc;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;14;5;16;;;;vpos;;v;;r;;d23,14;;b0,0;;m">
+</treenode>
+<treenode node="setBaixa_auto;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;50;5;52;;;;vpos;;v;;r;;d40,50;;b0,0;;mbaixa_auto;;p">
+</treenode>
+<treenode node="setBaixa_direto_dt_emissao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;54;5;56;;;;vpos;;v;;r;;d66,54;;b0,0;;mbaixa_direto_dt_emissao;;p">
+</treenode>
+<treenode node="setBanco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;46;5;48;;;;vpos;;v;;r;;d30,46;;b0,0;;mbanco;;p">
+</treenode>
+<treenode node="setCartao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;42;5;44;;;;vpos;;v;;r;;d32,42;;b0,0;;mcartao;;p">
+</treenode>
+<treenode node="setCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;34;5;36;;;;vpos;;v;;r;;d26,34;;b0,0;;mcod;;p">
+</treenode>
+<treenode node="setDesc;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\PlanoPagamento.class.php;f4;38;5;40;;;;vpos;;v;;r;;d28,38;;b0,0;;mdesc;;p">
+</treenode>
+</treenode>
+<treenode node="Transportadora;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f0;2;1;59;;;;vpos;;v;;r;;d20,2;;b0,0;;m">
+<treenode node="getCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;10;5;12;;;;vpos;;v;;r;;d22,10;;b0,0;;m">
+</treenode>
+<treenode node="getCpfcnpj;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;26;5;28;;;;vpos;;v;;r;;d26,26;;b0,0;;m">
+</treenode>
+<treenode node="getEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;18;5;20;;;;vpos;;v;;r;;d27,18;;b0,0;;m">
+</treenode>
+<treenode node="getInsc_estadual;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;30;5;32;;;;vpos;;v;;r;;d32,30;;b0,0;;m">
+</treenode>
+<treenode node="getNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;14;5;16;;;;vpos;;v;;r;;d23,14;;b0,0;;m">
+</treenode>
+<treenode node="getTipo;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;22;5;24;;;;vpos;;v;;r;;d23,22;;b0,0;;m">
+</treenode>
+<treenode node="setCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;34;5;36;;;;vpos;;v;;r;;d26,34;;b0,0;;mcod;;p">
+</treenode>
+<treenode node="setCpfcnpj;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;50;5;52;;;;vpos;;v;;r;;d34,50;;b0,0;;mcpfcnpj;;p">
+</treenode>
+<treenode node="setEndereco;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;42;5;44;;;;vpos;;v;;r;;d36,42;;b0,0;;mendereco;;p">
+</treenode>
+<treenode node="setInsc_estadual;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;54;5;56;;;;vpos;;v;;r;;d46,54;;b0,0;;minsc_estadual;;p">
+</treenode>
+<treenode node="setNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;38;5;40;;;;vpos;;v;;r;;d28,38;;b0,0;;mnome;;p">
+</treenode>
+<treenode node="setTipo;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Transportadora.class.php;f4;46;5;48;;;;vpos;;v;;r;;d28,46;;b0,0;;mtipo;;p">
+</treenode>
+</treenode>
+<treenode node="Vendedor;PHP:Class Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f0;2;1;50;;;;vpos;;v;;r;;d14,2;;b0,0;;m">
+<treenode node="getCarro;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;25;5;27;;;;vpos;;v;;r;;d24,25;;b0,0;;m">
+</treenode>
+<treenode node="getCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;9;5;11;;;;vpos;;v;;r;;d22,9;;b0,0;;m">
+</treenode>
+<treenode node="getComissao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;17;5;19;;;;vpos;;v;;r;;d27,17;;b0,0;;m">
+</treenode>
+<treenode node="getNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;13;5;15;;;;vpos;;v;;r;;d23,13;;b0,0;;m">
+</treenode>
+<treenode node="getPlaca;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;21;5;23;;;;vpos;;v;;r;;d24,21;;b0,0;;m">
+</treenode>
+<treenode node="setCarro;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;45;5;47;;;;vpos;;v;;r;;d30,45;;b0,0;;mcarro;;p">
+</treenode>
+<treenode node="setCod;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;29;5;31;;;;vpos;;v;;r;;d26,29;;b0,0;;mcod;;p">
+</treenode>
+<treenode node="setComissao;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;37;5;39;;;;vpos;;v;;r;;d36,37;;b0,0;;mcomissao;;p">
+</treenode>
+<treenode node="setNome;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;33;5;35;;;;vpos;;v;;r;;d28,33;;b0,0;;mnome;;p">
+</treenode>
+<treenode node="setPlaca;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\bean\Vendedor.class.php;f4;41;5;43;;;;vpos;;v;;r;;d30,41;;b0,0;;mplaca;;p">
+</treenode>
+</treenode>
+<treenode node="auto_load;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\Init.php;f4;21;5;29;;;;vpos;;v;;r;;d36,21;;b0,0;;mnomeClasse;;p">
+</treenode>
+<treenode node="logMsg;PHP:Function Name;C:\AppServ\www\Sistema-Financeiro\private\Config.php;f4;10;5;18;;;;vpos;;v;;r;;d26,10;;b0,0;;mtext;;p">
+</treenode>
+</phptree>
+</codestructure>
