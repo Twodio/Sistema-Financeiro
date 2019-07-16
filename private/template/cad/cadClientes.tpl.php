@@ -1,3 +1,6 @@
+<script src="js/importacao.js"></script>
+<script src="js/main.js"></script>
+
 <?php
     $cadastro = false;
     $erros = null;
@@ -106,6 +109,7 @@
                 <label for="busca" class="mr-2">Buscar: </label>
                 <input type="text" placeholder="Nome ou código do cliente" name="busca" value="<?=$_POST['busca'];?>" id="busca" class="form-control mr-2">
                 <input type="submit" value="Buscar" class="btn btn-warning" name="enviar" id="buscar">
+                <div id="result"></div>
             </form>
         </div>
     </div>
@@ -118,7 +122,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-3">
                         <label for="doc">CPF, CNPJ ou Passaporte</label>
-                        <input type="text" class="form-control" maxlength="16" id="doc" name="doc" value="<?=$_POST['doc'];?>" required>
+                        <input type="text" class="form-control" maxlength="19" id="doc" name="doc" value="<?=$_POST['doc'];?>" onchange="importa();" required>
                     </div>
                     <div class="form-group col-md-9">
                         <label for="nome">Nome</label>
@@ -398,5 +402,3 @@
         </div>
     </div>
 </div>
-
-<script src="js/main.js"></script>

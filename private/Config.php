@@ -2,8 +2,8 @@
 
 class Config{
     public $DB_NOME = "financeiro";
-    public $DB_USR = "root";
-    public $DB_SEN = "adsse12556";
+    public $DB_USR = "admin";
+    public $DB_SEN = "presidente";
     public $DB_LINK = "localhost";    
     public static $debug_into_db = false;
     public static $log_lvl = 2;
