@@ -187,6 +187,7 @@
                 </div>
                 
                 <div class="form-row">
+                    <input type="reset" id="resetar" hidden="hidden"> 
                     <input type="submit" class="btn btn-warning mr-3" name="cadastrar" value="Cadastrar">
                     <input type="submit" class="btn btn-warning mr-3" name="editar" value="Editar">
                     <input type="button" class="btn btn-warning mr-3" onclick="alteraUserId(<?=$_POST['userId'];?>);" data-toggle="modal" data-target="#delModal2" value="Excluir">

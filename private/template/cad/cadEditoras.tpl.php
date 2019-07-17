@@ -1,3 +1,4 @@
+<script src="js/importacao.js"></script>
 <?php
 
     $edit=null;
@@ -5,7 +6,7 @@
     
     if($_GET['op'] === "form" && isset($_POST['salvar'])){ 
         #formulário de cadastro enviado
-        $edit = new Editora($_POST['nome'], $_POST['cnpj'], $_POST['nome_reduzido'], $_POST['margem']);
+        $edit = new Editora($_POST['nome'], $_POST['doc'], $_POST['nome_reduzido'], $_POST['margem']);
         $end = new Endereco(null, null, $_POST['endereco'], $_POST['nro'], null, null, $_POST['cidade'], $_POST['uf']);
         $erros = $edit->validaDados();
         $erros2 = $end->validaDados();
@@ -38,7 +39,7 @@
     
     if(isset($_POST['editar']) && $_GET['op'] === "form"){
         #formulário foi enviado
-        $edit = new Editora($_POST['nome'], $_POST['cnpj'], $_POST['nome_reduzido'], $_POST['margem']);
+        $edit = new Editora($_POST['nome'], $_POST['doc'], $_POST['nome_reduzido'], $_POST['margem']);
         $end = new Endereco(null, null, $_POST['endereco'], $_POST['nro'], null, null, $_POST['cidade'], $_POST['uf']);
         $erros = $edit->validaDados();
         $erros2 = $end->validaDados();
@@ -95,7 +96,7 @@
             $end->buscar($edit->getId(), "id_edit");
             
             $_POST['editId'] = $edit->getId();
-            $_POST['cnpj'] = $edit->getCnpj();
+            $_POST['doc'] = $edit->getCnpj();
             $_POST['nome'] = $edit->getNome();
             $_POST['nome_reduzido'] = $edit->getNome_reduzido();
             $_POST['margem'] = $edit->getMargem();
@@ -146,8 +147,8 @@
                 <h5>Informações Básicas</h5>
                 <div class="form-row">
                     <div class="form-group col-md-3">
-                        <label for="cnpj">CNPJ (opcional)</label>
-                        <input type="text" class="form-control" value="<?=$_POST['cnpj'];?>" maxlength="16" id="cnpj" name="cnpj">
+                        <label for="doc">CNPJ (opcional)</label>
+                        <input type="text" class="form-control" value="<?=$_POST['doc'];?>" onchange="importa();" maxlength="16" id="doc" name="doc">
                     </div>
                     <div class="form-group col-md-7">
                         <label for="nome">Nome</label>

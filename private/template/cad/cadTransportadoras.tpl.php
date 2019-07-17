@@ -1,3 +1,4 @@
+<script src="js/importacao.js"></script>
 <div class="container">
     <h3 class="mt-3 text-center">Cadastro de transportadoras</h3>
     <div class="row">
@@ -16,8 +17,8 @@
                 <h5>Informações Básicas</h5>
                 <div class="form-row">
                     <div class="form-group col-md-3">
-                        <label for="cnpj">CNPJ</label>
-                        <input type="text" class="form-control" maxlength="16" id="cnpj" name="cnpj">
+                        <label for="doc">CNPJ</label>
+                        <input type="text" class="form-control" maxlength="16" onchange="importa();" id="doc" name="doc">
                     </div>
                     <div class="form-group col-md-9">
                         <label for="nome">Nome</label>

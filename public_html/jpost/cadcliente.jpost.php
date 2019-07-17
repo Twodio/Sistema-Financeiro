@@ -1,11 +1,26 @@
 <?php
-    if($_POST['cod'] || $_POST['id_usr']){
+    if($_POST['cod'] || $_POST['id_usr'] || $_POST['doc']){
         
         require_once '../../private/Init.php';
         
         #if $_SESSION
         
         switch($_POST['op']){
+            case 'load':
+                $bd = new Banco_De_Dados();
+                
+                $cod = filter_var($_POST['doc'], FILTER_SANITIZE_STRING);
+                
+                if(isset($cod)){
+                    $user = $bd->select("*", TB_CLIENTE, "WHERE doc=?;", array($cod));
+                    
+                    if($user == null){
+                        echo "{\"status\": \"ERROR\"}";
+                    } else {
+                        echo json_encode($user->fetchObject());
+                    }
+                } 
+                break;
             case 'del':
                 $bd = new Banco_De_Dados();
                 

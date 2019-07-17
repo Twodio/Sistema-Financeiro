@@ -69,7 +69,7 @@ class Cliente{
     public function consultar(){
         if(isset($this->nome)){            
             $erros['doc'] = $this->bd->select("doc", TB_CLIENTE, " WHERE doc=?;", array($this->doc));
-            $erros['email'] = $this->bd->select("email", TB_CLIENTE, " WHERE email=?;", array($this->email));
+            $erros['email'] = null;
             return $erros;
         } else {
             logMsg("Tentativa de consultar, sem inicializar a classe: Cliente");

@@ -1,3 +1,4 @@
+<script src="js/importacao.js"></script>
 <?php
     $for=null;
     $cadastro=false;
@@ -5,7 +6,7 @@
     if($_GET['op'] === "form" && isset($_POST['salvar'])){ 
         #formulário de cadastro enviado
         
-        $for = new Fornecedor($_POST['cnpj'], $_POST['nome'], $_POST['insc_est'], $_POST['insc_mun'], $_POST['telefone'], $_POST['celular'], $_POST['fax'], $_POST['contato'], $_POST['email']);
+        $for = new Fornecedor($_POST['doc'], $_POST['nome'], $_POST['insc_est'], $_POST['insc_mun'], $_POST['telefone'], $_POST['celular'], $_POST['fax'], $_POST['contato'], $_POST['email']);
         $end = new Endereco($_POST['cep'], $_POST['codmun'], $_POST['endereco'], $_POST['nro'], $_POST['complemento'], $_POST['bairro'], $_POST['cidade'], $_POST['uf']);
         $erros = $for->validaDados();
         $erros2 = $end->validaDados();
@@ -25,8 +26,8 @@
                 $for->setId($result);
                 
             } else {
-                if($result['cnpj'] != false)
-                    echo "<p class=\"text-center cd-erro\">Já existe um fornecedor com o cnpj: $doc cadastrado!<br></p>";
+                if($result['doc'] != false)
+                    echo "<p class=\"text-center cd-erro\">Já existe um fornecedor com o doc: $doc cadastrado!<br></p>";
             }
             
         } else {
@@ -46,7 +47,7 @@
     
     if(isset($_POST['editar']) && $_GET['op'] === "form"){
         #formulário foi enviado
-        $for = new Fornecedor($_POST['cnpj'], $_POST['nome'], $_POST['insc_est'], $_POST['insc_mun'], $_POST['telefone'], $_POST['celular'], $_POST['fax'], $_POST['contato'], $_POST['email']);
+        $for = new Fornecedor($_POST['doc'], $_POST['nome'], $_POST['insc_est'], $_POST['insc_mun'], $_POST['telefone'], $_POST['celular'], $_POST['fax'], $_POST['contato'], $_POST['email']);
         $end = new Endereco($_POST['cep'], $_POST['codmun'], $_POST['endereco'], $_POST['nro'], $_POST['complemento'], $_POST['bairro'], $_POST['cidade'], $_POST['uf']);
         $erros = $for->validaDados();
         $erros2 = $end->validaDados();
@@ -103,7 +104,7 @@
             $end->buscar($for->getId(), "id_for");
             
             $_POST['forId'] = $for->getId();
-            $_POST['cnpj'] = $for->getCnpj();
+            $_POST['doc'] = $for->getCnpj();
             $_POST['nome'] = $for->getNome();
             $_POST['celular'] = $for->getCelular();
             $_POST['telefone'] = $for->getTelefone();
@@ -163,8 +164,8 @@
                 <h5>Informações Básicas</h5>
                 <div class="form-row">
                     <div class="form-group col-md-3">
-                        <label for="cnpj">CNPJ</label>
-                        <input type="text" class="form-control" value="<?=$_POST['cnpj'];?>" maxlength="16" id="cnpj" name="cnpj">
+                        <label for="doc">CNPJ</label>
+                        <input type="text" class="form-control" value="<?=$_POST['doc'];?>" onchange="importa();" maxlength="16" id="doc" name="doc">
                     </div>
                     <div class="form-group col-md-9">
                         <label for="nome">Nome</label>
